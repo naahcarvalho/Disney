@@ -15,4 +15,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 É o 2º desafio do Projeto Vai na Web. O desafio era fazer uma Landing Page da Disney através do protótipo do figma.
 
+- [Visite o projeto online](https://disney-ntvwir4ph-naahcarvalho.vercel.app/)
+
 Esse projeto foi feito por Naah Carvalho ♥
