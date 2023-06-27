@@ -10,16 +10,19 @@
 }
 
 /* Estilizando o header */
+header {
+height: 130vh;
+}
+
 header ul {
   background-color: #1e1e1e;
   height: 25vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 header li {
-  margin: 150px 100px 150px 100px;
   list-style: none;
 }
 
@@ -37,7 +40,7 @@ header img {
 
 /* Estilizando o main */
 main {
-  padding-top: 100px;
+  height: 210vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -45,11 +48,13 @@ main {
 
 main section {
   display: flex;
+  width: 98vw;
+  height: 100vh;
+  justify-content: space-evenly;
 }
 
 main img {
   width: 26vw;
-  margin: 15px;
 }
 
 /* Estilizando o footer */
@@ -60,7 +65,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
 }
 
 footer section {
@@ -74,13 +78,14 @@ footer section {
 
 footer p {
   color: #ffffff;
-  margin-right: 10px;
   font-size: 20px;
   font-family: "Actor", sans-serif;
 }
 
 footer ul {
     display: flex;
+    width: 17vw;
+    justify-content: space-evenly;
 }
 
 footer li {
@@ -89,6 +94,5 @@ footer li {
 
 footer img {
   width: 4vw;
-  margin-left: 10px;
   cursor: pointer;
 }
